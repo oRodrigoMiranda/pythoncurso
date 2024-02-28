@@ -35,7 +35,13 @@ print(minha_lista)
 #metodo Sort = ordena a lista
 lista2=  [6, 8, 9, 7, 5, 1]
 lista2.sort()
+lista2.sort(reverse = True) #ordena reverso
 print(lista2)
+
+lista3 = sorted(lista2) #cria uma nova lista ordenada
+
+print(lista2)
+print(lista3)
 
 
 

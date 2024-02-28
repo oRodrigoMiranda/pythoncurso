@@ -55,7 +55,7 @@ telefone.replace("(", "").replace(")", "").replace("-","")
 
 "-".join("Rodrigo")
 
-nomes = nome_completo.split(" ")
+nomes = nome_completo.split(" ") #o espaço já é o padrao
 
 nome = "xRodrigo Mirandax"
 nome.strip("x")
